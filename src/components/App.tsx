@@ -1,11 +1,32 @@
 import React from 'react';
-import {Deck, Text, Box, UnorderedList, ListItem, Stepper, FlexBox} from 'spectacle';
+import {Deck, Text, Box, UnorderedList, ListItem, Image, FlexBox} from 'spectacle';
+import {
+    Button,
+    Select,
+    InputLabel,
+    NativeSelect,
+    MenuItem,
+    Switch,
+    Autocomplete,
+    TextField,
+} from '@mui/material';
+import {SelectChangeEvent} from '@mui/material/Select';
 
 import {theme} from '../theme';
 import {CommonSlide} from './CommonSlide';
 import {CommonStepperList} from './CommonStepperList';
 
+import carbon from '../assets/carbon.svg';
+
 export const App = () => {
+    const [multiselectValue, setMultiselectValue] = React.useState<string[]>([]);
+
+    const handleMultiselectChange = (event: SelectChangeEvent<typeof multiselectValue>) => {
+        const {
+            target: {value},
+        } = event;
+        setMultiselectValue(typeof value === 'string' ? value.split(',') : value);
+    };
     return (
         <Deck theme={theme}>
             <CommonSlide
@@ -79,6 +100,7 @@ export const App = () => {
                         'Коммуникация',
                         'Процессы',
                         'Внутренняя кухня разработки',
+                        'Вопросы, которые вы хотели бы задать разработчику',
                     ]}
                 />
             </CommonSlide>
@@ -215,6 +237,302 @@ export const App = () => {
                     ]}
                 />
             </CommonSlide>
+
+            <CommonSlide
+                heading="Макет, который легко читать"
+                justifyContent="flex-start"
+                alignItems="flex-start"
+            >
+                <CommonStepperList
+                    fontSize="p"
+                    listMarginTop="48px"
+                    itemMarginTop="24px"
+                    items={[
+                        'Собран на компонентах',
+                        'Самодостаточен',
+                        'Имеет структуру',
+                        'Содержит все сценарии',
+                        'Использует токены дизайн-системы',
+                        'Не вынуждает разработчика что-либо додумывать',
+                    ]}
+                />
+            </CommonSlide>
+
+            <CommonSlide heading="Ревью" justifyContent="flex-start" alignItems="flex-start">
+                <CommonStepperList
+                    items={[
+                        'Зачем? Все мы ленимся/ошибаемся',
+                        'Когда? После код-ревью и тестирования',
+                        'Как? Структурированный фидбэк',
+                        'Бонус. Вы потестируете интерфейс',
+                    ]}
+                />
+            </CommonSlide>
+
+            <CommonSlide heading="Документация" justifyContent="flex-start" alignItems="flex-start">
+                <CommonStepperList
+                    items={[
+                        'Зачем? Чтобы понимать актуальное состояние проекта',
+                        'Когда? Прямо перед релизом или сразу после него',
+                        'Как? Зависит от команды',
+                        'Бонус. Периодически проверяем актуальность',
+                    ]}
+                />
+            </CommonSlide>
+
+            <CommonSlide heading="Вы прекрасны" justifyContent="flex-start" alignItems="flex-start">
+                <CommonStepperList
+                    items={[
+                        'Имеете представление об архитектуре проекта',
+                        'Знаете как подготовить макеты для разработки',
+                        'Настроили процесс и держите всё под контролем',
+                        'Периодически проверяете себя',
+                        'Делитесь результатами своей работы',
+                    ]}
+                />
+            </CommonSlide>
+
+            <CommonSlide heading="Детали"></CommonSlide>
+
+            <CommonSlide
+                heading="Нативные элементы"
+                justifyContent="flex-start"
+                alignItems="flex-start"
+            >
+                <CommonStepperList items={['Некоторые выглядят как мы ожидаем', 'Некоторые нет']} />
+            </CommonSlide>
+
+            <CommonSlide heading="Button">
+                <Button variant="contained" style={{width: '200px', height: '50px'}}>
+                    Click me
+                </Button>
+                <Box width="100px" />
+                <button style={{width: '200px', height: '50px'}}>Click me</button>
+            </CommonSlide>
+
+            <CommonSlide heading="Select">
+                <FlexBox flexDirection="column" alignItems="flex-start">
+                    <InputLabel>MIU select</InputLabel>
+                    <Select defaultValue={1} style={{width: '200px', height: '50px'}}>
+                        <MenuItem value={1}>One</MenuItem>
+                        <MenuItem value={2}>Two</MenuItem>
+                        <MenuItem value={3}>Three</MenuItem>
+                        <MenuItem value={4}>Four</MenuItem>
+                    </Select>
+                </FlexBox>
+                <Box width="100px" />
+                <FlexBox flexDirection="column" alignItems="flex-start">
+                    <label>Native select</label>
+                    <select defaultValue={1} style={{width: '200px', height: '50px'}}>
+                        <option value={1}>One</option>
+                        <option value={2}>Two</option>
+                        <option value={3}>Three</option>
+                        <option value={4}>Four</option>
+                    </select>
+                </FlexBox>
+                <Box width="100px" />
+                <FlexBox flexDirection="column" alignItems="flex-start">
+                    <InputLabel>MIU native select</InputLabel>
+                    <NativeSelect defaultValue={1} style={{width: '200px', height: '50px'}}>
+                        <option value={1}>One</option>
+                        <option value={2}>Two</option>
+                        <option value={3}>Three</option>
+                        <option value={4}>Four</option>
+                    </NativeSelect>
+                </FlexBox>
+            </CommonSlide>
+
+            <CommonSlide heading="Switch">
+                <Switch />
+                <Box width="100px" />
+                <input type="checkbox" />
+            </CommonSlide>
+
+            <CommonSlide heading="Multiselect">
+                <FlexBox flexDirection="column" alignItems="flex-start">
+                    <InputLabel>MIU multiselect</InputLabel>
+                    <Select
+                        multiple
+                        value={multiselectValue}
+                        onChange={handleMultiselectChange}
+                        style={{width: '200px', height: '50px'}}
+                    >
+                        <MenuItem value={1}>One</MenuItem>
+                        <MenuItem value={2}>Two</MenuItem>
+                        <MenuItem value={3}>Three</MenuItem>
+                        <MenuItem value={4}>Four</MenuItem>
+                    </Select>
+                </FlexBox>
+                <Box width="100px" />
+                <FlexBox flexDirection="column" alignItems="flex-start">
+                    <label>Native multiselect</label>
+                    <select multiple defaultValue={1} style={{width: '200px', height: '50px'}}>
+                        <option value={1}>One</option>
+                        <option value={2}>Two</option>
+                        <option value={3}>Three</option>
+                        <option value={4}>Four</option>
+                    </select>
+                </FlexBox>
+            </CommonSlide>
+
+            <CommonSlide heading="ComboBox/SearchSelect">
+                <Autocomplete
+                    disablePortal
+                    id="combo-box-demo"
+                    options={['One', 'Two', 'Three', 'Four']}
+                    sx={{width: 300}}
+                    renderInput={params => <TextField {...params} label="Count" />}
+                />
+            </CommonSlide>
+
+            <CommonSlide
+                heading="Как так вышло?"
+                justifyContent="flex-start"
+                alignItems="flex-start"
+            >
+                <CommonStepperList
+                    items={[
+                        'Стандартизировать компоненты сложно',
+                        'Стандартизированные компоненты зачастую не покрывают требования',
+                        'С помощью веб технологий можно делать практически любые интерфейсы',
+                    ]}
+                />
+            </CommonSlide>
+
+            <CommonSlide
+                heading="В чём проблема?"
+                justifyContent="flex-start"
+                alignItems="flex-start"
+            >
+                <CommonStepperList
+                    items={[
+                        'Заново изобретаем универсальные компоненты',
+                        'Создаём переусложнённые компоненты',
+                    ]}
+                />
+            </CommonSlide>
+
+            <CommonSlide
+                heading="Добавляем/изменяем компонент"
+                justifyContent="flex-start"
+                alignItems="flex-start"
+            >
+                <CommonStepperList
+                    items={[
+                        'Накастомить и оставить',
+                        'Накастомить, но потом проработать',
+                        'Накастомить и подождать пока кто-нибудь проработает',
+                        'Использовать компоненты, которые уже есть',
+                    ]}
+                />
+            </CommonSlide>
+
+            <CommonSlide
+                heading="Консистентность"
+                justifyContent="flex-start"
+                alignItems="flex-start"
+            >
+                <CommonStepperList
+                    items={[
+                        'Компоненты в фигме',
+                        'Компоненты на портале дизайн-системы',
+                        'Компоненты в коде',
+                    ]}
+                />
+            </CommonSlide>
+
+            <CommonSlide
+                heading="Один источник правды"
+                justifyContent="flex-start"
+                alignItems="flex-start"
+            >
+                <CommonStepperList
+                    items={[
+                        'Портал дизайн-системы',
+                        'Не забываем контекст',
+                        'Держим руку на пульсе',
+                    ]}
+                />
+            </CommonSlide>
+
+            <CommonSlide
+                heading="Зачем изучать нативные компоненты?"
+                justifyContent="flex-start"
+                alignItems="flex-start"
+            >
+                <CommonStepperList
+                    items={[
+                        'Заново изобретаем универсальные компоненты',
+                        'Создаём переусложнённые компоненты',
+                    ]}
+                />
+            </CommonSlide>
+
+            <CommonSlide
+                heading="Как начать коммуникацию"
+                justifyContent="flex-start"
+                alignItems="flex-start"
+            >
+                <CommonStepperList
+                    items={[
+                        'Зовите разработку на свои встречи',
+                        'Узнайте какие есть встречи у разработки',
+                        'Найдите единомышленников',
+                    ]}
+                />
+            </CommonSlide>
+
+            <CommonSlide heading="Выводы" justifyContent="flex-start" alignItems="flex-start">
+                <CommonStepperList
+                    listMarginTop="40px"
+                    items={[
+                        'Если что-то не понятно, спросите',
+                        'Если что-то важно, запишите',
+                        'Старайтесь сохранить один источник правды',
+                        'Делитесь знаниями',
+                        'Будте нативны',
+                        'Мы все хотим делать качественный продукт',
+                    ]}
+                />
+            </CommonSlide>
+
+            <CommonSlide
+                heading="Бонус: анимации"
+                justifyContent="flex-start"
+                alignItems="flex-start"
+            >
+                <CommonStepperList
+                    items={['Простые: меняем 1-3 свойства', 'Сложные: смотришь и голова кружится']}
+                />
+            </CommonSlide>
+
+            <CommonSlide heading="Простые анимации">
+                <div className="animated"></div>
+            </CommonSlide>
+
+            <CommonSlide
+                heading="Простые анимации"
+                justifyContent="flex-start"
+                alignItems="flex-start"
+            >
+                <CommonStepperList
+                    items={['Легко стандартизируются', 'В идеале являются частью дизайн-системы']}
+                />
+            </CommonSlide>
+
+            <CommonSlide
+                heading="Сложные анимации"
+                justifyContent="flex-start"
+                alignItems="flex-start"
+            >
+                <CommonStepperList
+                    items={['Просто поговорите с разработкой', 'Используйте lottie/origami ect.']}
+                />
+            </CommonSlide>
+
+            <CommonSlide heading="Полезные ссылки"> </CommonSlide>
+
+            <CommonSlide heading="Спасибо!" />
         </Deck>
     );
 };
