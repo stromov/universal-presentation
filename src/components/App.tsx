@@ -127,7 +127,7 @@ export const App = () => {
                 </Text>
             </CommonSlide>
 
-            <CommonSlide heading="Рассмотрим пример">Добавь макет</CommonSlide>
+            <CommonSlide heading="Рассмотрим пример"></CommonSlide>
 
             <CommonSlide heading="Разработка делает такое лицо">
                 <Text fontSize="h1">😬</Text>
@@ -138,7 +138,7 @@ export const App = () => {
                     style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
                     width="100%"
                     height="500px"
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY4SHhcrybGHdjP1n6HkyKd%2FTest-prototype%3Fnode-id%3D2%253A141%26t%3DedwWdjFKriCGqGGW-1"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fnode-id%3D271%253A75%26t%3D1JELL9zhVNn0oBHU-1"
                     allowFullScreen
                 ></iframe>
             </CommonSlide>
@@ -158,24 +158,64 @@ export const App = () => {
                 />
             </CommonSlide>
 
-            <CommonSlide heading="Возможные способы решения">
-                <Text>Последовательные запросы</Text>
+            <CommonSlide heading="Потенциальные изменения">
+                <iframe
+                    style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
+                    width="100%"
+                    height="500px"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fnode-id%3D271%253A101%26t%3D1JELL9zhVNn0oBHU-1"
+                    allowFullScreen
+                ></iframe>
             </CommonSlide>
 
             <CommonSlide heading="Возможные способы решения">
-                <Text>Параллельные запросы запросы</Text>
+                <iframe
+                    style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
+                    width="100%"
+                    height="500px"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3234%26viewport%3D503%252C274%252C0.07%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3234%26hotspot-hints%3D0"
+                    allowFullScreen
+                ></iframe>
             </CommonSlide>
 
             <CommonSlide heading="Возможные способы решения">
-                <Text>Запрос в один сервис</Text>
+                <iframe
+                    style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
+                    width="100%"
+                    height="500px"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3392%26viewport%3D503%252C274%252C0.07%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3371%26hotspot-hints%3D0"
+                    allowFullScreen
+                ></iframe>
             </CommonSlide>
 
             <CommonSlide heading="Возможные способы решения">
-                <Text>Прослойка с последовательными запросами</Text>
+                <iframe
+                    style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
+                    width="100%"
+                    height="500px"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3500%26viewport%3D503%252C274%252C0.07%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3459%26hotspot-hints%3D0"
+                    allowFullScreen
+                ></iframe>
             </CommonSlide>
 
             <CommonSlide heading="Возможные способы решения">
-                <Text>Прослойка с параллельными запросами</Text>
+                <iframe
+                    style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
+                    width="100%"
+                    height="500px"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3569%26viewport%3D503%252C274%252C0.07%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3569%26hotspot-hints%3D0"
+                    allowFullScreen
+                ></iframe>
+            </CommonSlide>
+
+            <CommonSlide heading="Возможные способы решения">
+                <iframe
+                    style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
+                    width="100%"
+                    height="500px"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3751%26viewport%3D503%252C274%252C0.07%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3751%26hotspot-hints%3D0"
+                    allowFullScreen
+                ></iframe>
             </CommonSlide>
 
             <CommonSlide heading="Что важно помнить">
@@ -184,13 +224,7 @@ export const App = () => {
                 </Text>
             </CommonSlide>
 
-            <CommonSlide
-                heading={
-                    <span>
-                        Разговариваем и <br /> принимаем решение
-                    </span>
-                }
-            >
+            <CommonSlide heading={'Принимаем решение'}>
                 <iframe
                     height="450"
                     width="800"
