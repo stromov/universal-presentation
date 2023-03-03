@@ -1,8 +1,8 @@
 # Universal presentation
 
-##
+## Presentation link
 
-[Presentation link](https://stromov.github.io/universal-presentation/)
+https://stromov.github.io/universal-presentation/
 
 ## Preconditions
 
