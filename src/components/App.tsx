@@ -127,7 +127,15 @@ export const App = () => {
                 </Text>
             </CommonSlide>
 
-            <CommonSlide heading="Рассмотрим пример"></CommonSlide>
+            <CommonSlide heading="Рассмотрим пример">
+                <iframe
+                    style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
+                    width="100%"
+                    height="500px"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fnode-id%3D186%253A3907%26t%3DTTV7AGRZhAvqAnAa-1"
+                    allowFullScreen
+                />
+            </CommonSlide>
 
             <CommonSlide heading="Разработка делает такое лицо">
                 <Text fontSize="h1">😬</Text>
@@ -140,7 +148,7 @@ export const App = () => {
                     height="500px"
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fnode-id%3D271%253A75%26t%3D1JELL9zhVNn0oBHU-1"
                     allowFullScreen
-                ></iframe>
+                />
             </CommonSlide>
 
             <CommonSlide
@@ -165,7 +173,27 @@ export const App = () => {
                     height="500px"
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fnode-id%3D271%253A101%26t%3D1JELL9zhVNn0oBHU-1"
                     allowFullScreen
-                ></iframe>
+                />
+            </CommonSlide>
+
+            <CommonSlide heading="Потенциальные изменения">
+                <iframe
+                    style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
+                    width="100%"
+                    height="500px"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fnode-id%3D858%253A1096%26t%3DTTV7AGRZhAvqAnAa-1"
+                    allowFullScreen
+                />
+            </CommonSlide>
+
+            <CommonSlide heading="Потенциальные изменения">
+                <iframe
+                    style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
+                    width="100%"
+                    height="500px"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fnode-id%3D858%253A1152%26t%3DTTV7AGRZhAvqAnAa-1"
+                    allowFullScreen
+                />
             </CommonSlide>
 
             <CommonSlide heading="Возможные способы решения">
@@ -175,7 +203,7 @@ export const App = () => {
                     height="500px"
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3234%26viewport%3D503%252C274%252C0.07%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3234%26hotspot-hints%3D0"
                     allowFullScreen
-                ></iframe>
+                />
             </CommonSlide>
 
             <CommonSlide heading="Возможные способы решения">
@@ -185,7 +213,7 @@ export const App = () => {
                     height="500px"
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3392%26viewport%3D503%252C274%252C0.07%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3371%26hotspot-hints%3D0"
                     allowFullScreen
-                ></iframe>
+                />
             </CommonSlide>
 
             <CommonSlide heading="Возможные способы решения">
@@ -195,7 +223,7 @@ export const App = () => {
                     height="500px"
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3500%26viewport%3D503%252C274%252C0.07%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3459%26hotspot-hints%3D0"
                     allowFullScreen
-                ></iframe>
+                />
             </CommonSlide>
 
             <CommonSlide heading="Возможные способы решения">
@@ -205,7 +233,7 @@ export const App = () => {
                     height="500px"
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3569%26viewport%3D503%252C274%252C0.07%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3569%26hotspot-hints%3D0"
                     allowFullScreen
-                ></iframe>
+                />
             </CommonSlide>
 
             <CommonSlide heading="Возможные способы решения">
@@ -215,7 +243,7 @@ export const App = () => {
                     height="500px"
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3751%26viewport%3D503%252C274%252C0.07%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3751%26hotspot-hints%3D0"
                     allowFullScreen
-                ></iframe>
+                />
             </CommonSlide>
 
             <CommonSlide heading="Что важно помнить">
@@ -226,9 +254,10 @@ export const App = () => {
 
             <CommonSlide heading={'Принимаем решение'}>
                 <iframe
-                    height="450"
-                    width="800"
-                    src="https://www.figma.com/embed?embed_host=universal-presentation&url=https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File"
+                    style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
+                    width="100%"
+                    height="500px"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fnode-id%3D186%253A3907%26t%3DTTV7AGRZhAvqAnAa-1"
                     allowFullScreen
                 />
             </CommonSlide>
