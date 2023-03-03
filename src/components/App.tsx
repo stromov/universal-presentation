@@ -132,7 +132,7 @@ export const App = () => {
                     style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
                     width="100%"
                     height="500px"
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fnode-id%3D186%253A3907%26t%3DTTV7AGRZhAvqAnAa-1"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Flwemym3bkpMllwDqIll6Bd%2Funiversal-presentation%3Fnode-id%3D186%253A3867%26t%3Dn2tDs5ZInCxqvpjE-1"
                     allowFullScreen
                 />
             </CommonSlide>
@@ -146,7 +146,7 @@ export const App = () => {
                     style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
                     width="100%"
                     height="500px"
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fnode-id%3D271%253A75%26t%3D1JELL9zhVNn0oBHU-1"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Flwemym3bkpMllwDqIll6Bd%2Funiversal-presentation%3Fnode-id%3D271%253A75%26t%3Dn2tDs5ZInCxqvpjE-1"
                     allowFullScreen
                 />
             </CommonSlide>
@@ -171,7 +171,7 @@ export const App = () => {
                     style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
                     width="100%"
                     height="500px"
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fnode-id%3D271%253A101%26t%3D1JELL9zhVNn0oBHU-1"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Flwemym3bkpMllwDqIll6Bd%2Funiversal-presentation%3Fnode-id%3D271%253A101%26t%3Dn2tDs5ZInCxqvpjE-1"
                     allowFullScreen
                 />
             </CommonSlide>
@@ -181,7 +181,7 @@ export const App = () => {
                     style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
                     width="100%"
                     height="500px"
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fnode-id%3D858%253A1096%26t%3DTTV7AGRZhAvqAnAa-1"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Flwemym3bkpMllwDqIll6Bd%2Funiversal-presentation%3Fnode-id%3D858%253A1096%26t%3Dn2tDs5ZInCxqvpjE-1"
                     allowFullScreen
                 />
             </CommonSlide>
@@ -191,7 +191,7 @@ export const App = () => {
                     style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
                     width="100%"
                     height="500px"
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fnode-id%3D858%253A1152%26t%3DTTV7AGRZhAvqAnAa-1"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Flwemym3bkpMllwDqIll6Bd%2Funiversal-presentation%3Fnode-id%3D858%253A1152%26t%3Dn2tDs5ZInCxqvpjE-1"
                     allowFullScreen
                 />
             </CommonSlide>
@@ -201,7 +201,7 @@ export const App = () => {
                     style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
                     width="100%"
                     height="500px"
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3234%26viewport%3D503%252C274%252C0.07%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3234%26hotspot-hints%3D0"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Flwemym3bkpMllwDqIll6Bd%2Funiversal-presentation%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3342%26viewport%3D540%252C339%252C0.1%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3234%26hotspot-hints%3D0"
                     allowFullScreen
                 />
             </CommonSlide>
@@ -211,7 +211,7 @@ export const App = () => {
                     style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
                     width="100%"
                     height="500px"
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3392%26viewport%3D503%252C274%252C0.07%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3371%26hotspot-hints%3D0"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Flwemym3bkpMllwDqIll6Bd%2Funiversal-presentation%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3371%26viewport%3D540%252C339%252C0.1%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3371%26hotspot-hints%3D0"
                     allowFullScreen
                 />
             </CommonSlide>
@@ -221,7 +221,7 @@ export const App = () => {
                     style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
                     width="100%"
                     height="500px"
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3500%26viewport%3D503%252C274%252C0.07%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3459%26hotspot-hints%3D0"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Flwemym3bkpMllwDqIll6Bd%2Funiversal-presentation%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3500%26viewport%3D540%252C339%252C0.1%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3459%26hotspot-hints%3D0"
                     allowFullScreen
                 />
             </CommonSlide>
@@ -231,7 +231,7 @@ export const App = () => {
                     style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
                     width="100%"
                     height="500px"
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3569%26viewport%3D503%252C274%252C0.07%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3569%26hotspot-hints%3D0"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Flwemym3bkpMllwDqIll6Bd%2Funiversal-presentation%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3569%26viewport%3D540%252C339%252C0.1%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3569%26hotspot-hints%3D0"
                     allowFullScreen
                 />
             </CommonSlide>
@@ -241,7 +241,7 @@ export const App = () => {
                     style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
                     width="100%"
                     height="500px"
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3751%26viewport%3D503%252C274%252C0.07%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3751%26hotspot-hints%3D0"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Flwemym3bkpMllwDqIll6Bd%2Funiversal-presentation%3Fpage-id%3D186%253A3233%26node-id%3D186%253A3751%26viewport%3D540%252C339%252C0.1%26scaling%3Dscale-down-width%26starting-point-node-id%3D186%253A3751%26hotspot-hints%3D0"
                     allowFullScreen
                 />
             </CommonSlide>
@@ -257,7 +257,7 @@ export const App = () => {
                     style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
                     width="100%"
                     height="500px"
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fnode-id%3D186%253A3907%26t%3DTTV7AGRZhAvqAnAa-1"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Flwemym3bkpMllwDqIll6Bd%2Funiversal-presentation%3Fnode-id%3D186%253A3867%26t%3Dn2tDs5ZInCxqvpjE-1"
                     allowFullScreen
                 />
             </CommonSlide>
@@ -272,7 +272,13 @@ export const App = () => {
                 alignItems="flex-start"
             >
                 <CommonStepperList
-                    items={['Pixel-perfect', 'Понимающий', 'С придирками', 'Я лучше тебя знаю']}
+                    items={[
+                        'Pixel-perfect',
+                        'Понимающий',
+                        'С придирками',
+                        'Я лучше тебя знаю',
+                        'И так сойдёт',
+                    ]}
                 />
             </CommonSlide>
 
@@ -456,7 +462,7 @@ export const App = () => {
                 <CommonStepperList
                     items={[
                         'Стандартизировать компоненты сложно',
-                        'Стандартизированные компоненты зачастую не покрывают требования',
+                        'Зачастую не хватает стандартной функциональности',
                         'С помощью веб технологий можно делать практически любые интерфейсы',
                     ]}
                 />
@@ -472,6 +478,33 @@ export const App = () => {
                         'Заново изобретаем универсальные компоненты',
                         'Создаём переусложнённые компоненты',
                     ]}
+                />
+            </CommonSlide>
+
+            <CommonSlide
+                heading="Зачем изучать нативные компоненты?"
+                justifyContent="flex-start"
+                alignItems="flex-start"
+            >
+                <CommonStepperList
+                    items={[
+                        'Заново изобретаем универсальные компоненты',
+                        'Создаём переусложнённые компоненты',
+                    ]}
+                />
+            </CommonSlide>
+
+            <CommonSlide
+                heading="Зачем изучать нативные компоненты?"
+                justifyContent="flex-start"
+                alignItems="flex-start"
+            >
+                <iframe
+                    style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
+                    width="100%"
+                    height="500px"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY4SHhcrybGHdjP1n6HkyKd%2FDesigns-for-Yura%3Fpage-id%3D186%253A3868%26node-id%3D1277%253A331%26viewport%3D3451%252C5972%252C0.35%26scaling%3Dscale-down-width%26hotspot-hints%3D0"
+                    allowFullScreen
                 />
             </CommonSlide>
 
@@ -514,19 +547,6 @@ export const App = () => {
                         'Портал дизайн-системы',
                         'Не забываем контекст',
                         'Держим руку на пульсе',
-                    ]}
-                />
-            </CommonSlide>
-
-            <CommonSlide
-                heading="Зачем изучать нативные компоненты?"
-                justifyContent="flex-start"
-                alignItems="flex-start"
-            >
-                <CommonStepperList
-                    items={[
-                        'Заново изобретаем универсальные компоненты',
-                        'Создаём переусложнённые компоненты',
                     ]}
                 />
             </CommonSlide>
@@ -589,7 +609,7 @@ export const App = () => {
                 alignItems="flex-start"
             >
                 <CommonStepperList
-                    items={['Просто поговорите с разработкой', 'Используйте lottie/origami ect.']}
+                    items={['Просто поговорите с разработкой', 'Используйте lottie/origami etc.']}
                 />
             </CommonSlide>
 
