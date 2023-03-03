@@ -35,7 +35,17 @@ export const CommonSlide = ({
                 {children}
             </FlexBox>
 
-            <FullScreen size={23} color="black" position="fixed" bottom="20px" />
+            <FullScreen
+                size={23}
+                style={{
+                    position: 'fixed',
+                    bottom: '0',
+                    left: '0',
+                    width: '100px',
+                    height: '100px',
+                    color: 'white',
+                }}
+            />
         </Slide>
     );
 };
