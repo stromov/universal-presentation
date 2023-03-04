@@ -495,19 +495,6 @@ export const App = () => {
                 justifyContent="flex-start"
                 alignItems="flex-start"
             >
-                <CommonStepperList
-                    items={[
-                        'Заново изобретаем универсальные компоненты',
-                        'Создаём переусложнённые компоненты',
-                    ]}
-                />
-            </CommonSlide>
-
-            <CommonSlide
-                heading="Зачем изучать нативные компоненты?"
-                justifyContent="flex-start"
-                alignItems="flex-start"
-            >
                 <iframe
                     style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
                     width="100%"
