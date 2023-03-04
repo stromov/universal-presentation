@@ -452,6 +452,15 @@ export const App = () => {
                     sx={{width: 300}}
                     renderInput={params => <TextField {...params} label="Count" />}
                 />
+                <Box width="100px" />
+                <FlexBox flexDirection="column" alignItems="flex-start">
+                    <select style={{width: '200px', height: '54px'}}>
+                        <option value={1}>One</option>
+                        <option value={2}>Two</option>
+                        <option value={3}>Three</option>
+                        <option value={4}>Four</option>
+                    </select>
+                </FlexBox>
             </CommonSlide>
 
             <CommonSlide
